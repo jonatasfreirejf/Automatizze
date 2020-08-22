@@ -1,0 +1,29 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"App\\" : "App/"
+		}
+	},
+	"require" : {
+		"phpmailer/phpmailer" : "^6.1",
+		"vlucas/phpdotenv" : "^5.1",
+		"illuminate/database" : "^7.25"
+	},
+	"name" : "jfstartupstudio/automatize",
+	"description" : "MicroService de envio de e-mails em massa pela web",
+	"type" : "project",
+	"authors" : [{
+			"name" : "JF Startup Studio",
+			"email" : "atendimento@jfstartupstudio.com.br",
+			"homepage" : "https://www.jfstartupstudio.com.br"
+		}
+	],
+	"support" : {
+		"email" : "atendimento@jfstartupstudio.com.br"
+	},
+	"keywords" : [
+		"microservice",
+		"emails em massa"
+	],
+	"license" : "MIT"
+}
